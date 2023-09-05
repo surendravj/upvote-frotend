@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+/* styles.css */
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Style the scrollbar track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #ddd;
+}
+
+/* Style the scrollbar track when the scrollbar is active (clicked) */
+::-webkit-scrollbar-thumb:active {
+  background-color: #333;
+}
+
+/* Style the scrollbar corner (when both vertical and horizontal scrollbars are present) */
+::-webkit-scrollbar-corner {
+  background-color: #eee;
+}
+
+
+.pointer{
+  cursor: pointer;
+}
+
+.wrap-it{
+  word-wrap: break-word;
+  }
